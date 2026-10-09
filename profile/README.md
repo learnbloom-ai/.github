@@ -1,20 +1,38 @@
-# LearnBloom AI 🌱
+# LearnBloom AI
 
-让学习持续生长。
+让学习持续生长。Learning tools that help you grow.
 
-我们探索 AI 辅助学习，构建简洁、有效的开源学习工具，让听、读、写与复习形成可持续的学习习惯。
+LearnBloom AI 探索 AI 辅助学习，开发适合日常练习的学习工具。我们从英语单词默写开始，把拼写、反馈、复习和学习记录连接起来。
 
-## 项目
+## 主要项目
 
-| 项目 | 说明 |
-| --- | --- |
-| [Word Practice](https://github.com/learnbloom-ai/word-practice) | React 单词默写网站，支持逐字母拼写、错题整理、间隔复习与学习记录。 |
-| [Word Practice Mini Program](https://github.com/learnbloom-ai/word-practice-miniprogram) | 微信原生小程序，使用 WXML、WXSS 和 JavaScript，提供适合手机的默写练习。 |
+### [Word Practice · 网页版](https://github.com/learnbloom-ai/word-practice)
 
-## 我们关注
+基于 React 的英语默写工具，可在电脑、手机浏览器和 App 内嵌 H5 中使用。
 
-- 清晰、专注的学习体验
-- 可验证的学习反馈与复习记录
-- 组件化、模块化和可维护的实现
+- 按单元和学习范围选择词库
+- 逐字母输入，自动判断拼写
+- 拼错时留在当前单词，改对后继续
+- 答对后展示词性，手动进入下一题
+- 朗读、错题本、间隔复习和学习记录
 
-欢迎通过各项目的 Issues 提出建议或反馈问题。
+### [Word Practice · 微信小程序](https://github.com/learnbloom-ai/word-practice-miniprogram)
+
+使用 WXML、WXSS、JavaScript 和微信 API 开发的原生版本，面向手机上的默写练习，代码独立维护。
+
+目前可在微信开发者工具中导入体验，尚未正式发布。
+
+## 为什么做这些工具
+
+让孩子每次练习都能知道哪里拼错、哪些内容需要复习，也让家长可以查看每轮默写情况。我们关注清晰的操作、及时的反馈，以及能长期坚持的学习习惯。
+
+AI 辅助学习是我们的探索方向；现有项目以可直接使用的默写和复习功能为基础。
+
+## 参与与反馈
+
+欢迎在对应项目的 Issues 中反馈问题、提出建议，或通过 Pull Request 改进代码。
+
+## 链接
+
+- [网页源码](https://github.com/learnbloom-ai/word-practice)
+- [小程序源码](https://github.com/learnbloom-ai/word-practice-miniprogram)
